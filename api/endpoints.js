@@ -14,11 +14,8 @@ const allowCors = (fn) => async (req, res) => {
 
     if (req.method === 'GET') {
         res.json([
-            { name: 'Blaster', description: 'A simple blaser pistol', damage: '3', img: 'blaser.png' },
-            { name: 'Laser', description: 'A simple laser pistol', damage: '5', img: 'laser.png' },
-            { name: 'Missle', description: 'A straight-shot missle', damage: '8', img: 'missle.png' },
-            { name: 'Homing Missle', description: 'A heat-seaking missle', damage: '9', img: 'hmissle.png' },
-            { name: 'BGF', description: 'A rather large device', damage: '25', img: 'bgf.png' },
+            { name: '/users', description: 'A list of users' },
+            { name: '/weapons', description: 'A list of weapons' }
         ]);
         return;
     }
