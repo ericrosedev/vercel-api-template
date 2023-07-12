@@ -34,6 +34,8 @@ const allowCors = fn => async (req, res) => {
             {name: "Kevin", location: "Folsom, CA"},
             {name: "Melinda", location: "Folsom, CA"}
         ])
+
+        return
     }
   
     return await fn(req, res)
