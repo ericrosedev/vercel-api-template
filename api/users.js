@@ -2,7 +2,7 @@ const allowCors = fn => async (req, res) => {
 
     res.setHeader('Access-Control-Allow-Credentials', true)
   
-    res.setHeader('Access-Control-Allow-Origin', 'https://rainbow-horse-a069c1.netlify.app/')
+    res.setHeader('Access-Control-Allow-Origin', 'https://rainbow-horse-a069c1.netlify.app')
   
     // another common pattern
   
