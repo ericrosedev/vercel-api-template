@@ -1,0 +1,22 @@
+{
+  "name": "vercel-api-template",
+  "version": "1.0.0",
+  "description": "A boilerplate for a Vercel API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericrosedev/vercel-api-template.git"
+  },
+  "author": "Eric Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericrosedev/vercel-api-template/issues"
+  },
+  "homepage": "https://github.com/ericrosedev/vercel-api-template#readme",
+  "devDependencies": {
+    "@vercel/node": "^2.15.4"
+  }
+}
