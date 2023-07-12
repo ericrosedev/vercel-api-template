@@ -4,3 +4,6 @@ A bloilerplate for a Vercel API
 ## creation steps
 npm init
 npm i @vercel/node --save-dev
+
+## running
+on vercel

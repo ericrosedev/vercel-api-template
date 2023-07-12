@@ -4,7 +4,8 @@ module.exports = (req, res) => {
             {name: "Eric", location: "Sacramento, CA"},
             {name: "Dakota", location: "Sacramento, CA"},
             {name: "Amy", location: "Far Away"},
-            {name: "Kevin", location: "Folsom, CA"}
+            {name: "Kevin", location: "Folsom, CA"},
+            {name: "Melinda", location: "Folsom, CA"}
         ])
     } else {
 
