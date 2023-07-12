@@ -3,7 +3,8 @@ module.exports = (req, res) => {
         res.json([
             {name: "Eric", location: "Sacramento, CA"},
             {name: "Dakota", location: "Sacramento, CA"},
-            {name: "Amy", location: "Far Away"}
+            {name: "Amy", location: "Far Away"},
+            {name: "Kevin", location: "Folsom, CA"}
         ])
     } else {
 
