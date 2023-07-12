@@ -2,7 +2,7 @@
     "routes":[
         {
             "src": "/",
-            "dest": "/api/users.js"
+            "dest": "/api/endpoints.js"
         }
     ]
 }
