@@ -15,7 +15,8 @@ const allowCors = (fn) => async (req, res) => {
     if (req.method === 'GET') {
         res.json([
             { name: '/api/users', description: 'A list of users' },
-            { name: '/api/weapons', description: 'A list of weapons' }
+            { name: '/api/weapons', description: 'A list of weapons' },
+            { name: '/api/chunks', description: 'returns some html' }
         ]);
         return;
     }
