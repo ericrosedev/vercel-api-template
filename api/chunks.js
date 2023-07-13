@@ -15,8 +15,8 @@ const allowCors = (fn) => async (req, res) => {
     if (req.method === 'GET') {
         res.setHeader('Content-Type', 'text/html'); // Set the content type to HTML
         res.send(`
-            <div class="testdiv">
-                <span class="testspan">testtext</span>
+            <div class="server-test-div">
+                <span class="server-test-span">test</span>
             </div>
         `);
         return;
