@@ -12,10 +12,10 @@ const allowCors = (fn) => async (req, res) => {
         return;
     }
 
+    let theCount = 0;
+
     if (req.method === 'GET') {
-        res.json([
-            { count: '0', description: 'The current count' }
-        ]);
+        res.render(theCount);
         return;
     }
 
